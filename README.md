@@ -118,4 +118,16 @@ function setParams(params) {
 
     return params;
 }
+
+
+function sortBy(name, order) {
+    $('#sortBy').attr('name', name);
+    $('#sortBy').attr('order', order);
+}
+
+$(document).ready(function () {
+    $('#selectCustomer').on('sort.bs.table', function (e, name, order) {
+        sortBy(name, order);
+    });
+});
 ```
