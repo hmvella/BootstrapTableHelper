@@ -1,6 +1,7 @@
 # BootstrapTableHelper
 C# Helper Class for Wenzhixin's Bootstrap Table
 
+```c#
     public string SelectCustomerData(int pageSize, int pageNumber, string sortOrder, string sortBy, string type, string searchString = "", bool searchStartOnly = false)
      { 
 	     var queryable = db.vRetailCustomers.AsQueryable(); 
