@@ -75,7 +75,7 @@ Use the c# class properties as the data-field values.
 </div>
 ```
 
-### Script
+### JavaScript
 ```js
 //Retrieve sort key, sort order, search parameters from view, and pass along with default params.
 function setSupplierParams(params) {
