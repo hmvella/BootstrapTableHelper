@@ -7,7 +7,6 @@ using System.ComponentModel;
 using System.Data;
 using System.Dynamic;
 using System.Linq;
-//using System.Linq.Dynamic;
 
 namespace StatusUpdater.Helpers
 {
@@ -48,15 +47,6 @@ namespace StatusUpdater.Helpers
 
             expandoObject.total = listCount;
             expandoObject.rows = objectList.Limit(skip, pageSize).ToList();
-
-            //if (objectList.Count() > skip)
-            //{
-            //    expandoObject.rows = objectList.Limit(skip, pageSize).ToList();
-            //}
-            //else
-            //{
-            //    expandoObject.rows = objectList.Limit(0, pageSize).ToList();
-            //}
 
             string json = JsonConvert.SerializeObject(expandoObject);
             return json;
