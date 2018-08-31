@@ -5,6 +5,7 @@ Use BootstrapHelper.cs for EntityFramework;
 Use NPBootstrapHelper.cs for Npoco; 
 
 ## Example
+Follow the below example across your Controller, Razor/HTML, and Javascript. 
 ### Controllers
 #### When using Entity Framework
 ```c#
