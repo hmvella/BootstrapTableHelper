@@ -13,7 +13,7 @@ public string SelectCustomerData(int pageSize, int pageNumber, string sortOrder,
 { 
      var queryable = db.V_PL_ACCOUNTS.AsQueryable(); 
      var helper =  new BootstrapTableHelper();
-     var results = GenerateTable(queryable, pageSize, pageNumber, sortBy, sortOrder, searchString, searchStartOnly); //So ease. Much wow. 
+     var results = helper.GenerateTable(queryable, pageSize, pageNumber, sortBy, sortOrder, searchString, searchStartOnly); //So ease. Much wow. 
      
      return results;
 }
