@@ -1,5 +1,5 @@
 # BootstrapTableHelper
-Helper classes for simple integration of [Wenzhixin's Bootstrap Table](http://bootstrap-table.wenzhixin.net.cn/) with ASP.NET MVC/Core Entity Framework or NPoco ORMs when using Server Side pagination. Provides support for dynamic sorting, searching and pagination. 
+Helper classes for simple integration of [Wenzhixin's Bootstrap Table](http://bootstrap-table.wenzhixin.net.cn/) with ASP.NET MVC Entity Framework or NPoco ORMs when using Server Side pagination. Provides support for dynamic sorting, searching and pagination. 
 
 Use BootstrapHelper.cs for EntityFramework;
 Use NPBootstrapHelper.cs for Npoco; 
