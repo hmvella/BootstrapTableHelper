@@ -108,7 +108,6 @@ namespace StatusUpdater.Helpers
 
         private string SearchQueryGenerator<T>(IQueryProvider<T> objectList, string searchString, bool searchStartOnly, bool isCaseSensitive) 
         {
-
             var searchFloat = -9001.0f;
             var isNumber = float.TryParse(searchString, out searchFloat);
             var searchable = GetSearchableColumns(objectList);
