@@ -17,7 +17,7 @@ public string SelectCustomerData(int pageSize, int pageNumber, string sortOrder,
      return results;
 }
 ```
-#### When using NPoco example.
+#### When using NPoco
 ```c#
 public string SelectSupplierData(int pageSize, int pageNumber, string sortOrder, string sortBy, string searchString = "", bool 	searchStartOnly = false)
 {
