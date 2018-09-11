@@ -132,7 +132,7 @@ namespace StatusUpdater.Helpers
                 {
                     foreach (var num in searchableNumColumns)
                     {
-                        var queryString = $"CONVERT(varchar(MAX), {num.Name}) '{searchWord}'"; 
+                        var queryString = $"CONVERT(varchar(MAX), {num.Name}) {searchWord}"; 
                         queryList.Add(queryString);
                     }
                 }
