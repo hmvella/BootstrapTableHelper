@@ -55,7 +55,10 @@ namespace HMVella
                 expandoObject.rows = objectList.Take(pageSize).ToList();
             }
 
-            string json = JsonConvert.SerializeObject(expandoObject);
+            string json = JsonConvert.SerializeObject(expandoObject, new JsonSerializerSettings
+            {
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+            });
             return json;
         }
 
