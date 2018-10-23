@@ -110,7 +110,7 @@ function setSupplierParams(params) {
 
 //Required to store sort key and order
 function sortBy(name, order) {
-    $('#sortBy').attr('name', name);
+    $('#sortBy').attr('by', name);
     $('#sortBy').attr('order', order);
 }
 
