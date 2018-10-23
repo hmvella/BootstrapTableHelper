@@ -34,7 +34,7 @@ The critical attributes are: data-side-pagination, data-url, data-field and data
 Use the c# class properties as the data-field values.
 ```html
 <!--This example is using Bootstrap 4 - For bootstrap 3, switch classes 'd-none' with 'hidden' and 'show' with 'in'  -->
-<div id="sortBy" by="SUCODE" order="ASC" period="1" class="d-none"></div>
+<input class="hidden" id="sortBy" by="SUCODE" order="asc" />
 <div id="itemList" class="tab-pane fade show active">
 	<table data-pagination=true data-classes="table-no-bordered"
 	       data-search=true
